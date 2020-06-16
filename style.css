@@ -1,0 +1,13 @@
+.container{
+    height: 500px;
+width: 500px;
+/* border: 2px solid black; */
+display: grid;
+grid-template-columns: 33.3% 33.3% 33.3%;
+text-align: center;
+margin: auto;
+}
+
+.box{
+    border: 2px solid black;
+}
