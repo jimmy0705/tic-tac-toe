@@ -1,13 +1,27 @@
+
+*{
+	box-sizing: border-box;
+}
+
 .container{
-    height: 500px;
-width: 500px;
+    height: 350px;
+width: 350px;
 /* border: 2px solid black; */
 display: grid;
 grid-template-columns: 33.3% 33.3% 33.3%;
 text-align: center;
 margin: auto;
+
 }
 
 .box{
     border: 2px solid black;
+    cursor: pointer;
+}
+
+
+.message {
+
+	text-align: center;
+	margin: 2em;
 }
