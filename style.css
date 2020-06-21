@@ -17,6 +17,14 @@ margin: auto;
 .box{
     border: 2px solid black;
     cursor: pointer;
+    text-align: center;
+display: flex;
+align-content: center;
+align-items: center;
+justify-content: space-around;
+font-size: 40px;
+height: initial;
+width: initial;
 }
 
 
@@ -25,3 +33,19 @@ margin: auto;
 	text-align: center;
 	margin: 2em;
 }
+
+
+#restartButton {
+	margin-top: 15px;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    background: aquamarine;
+    border-radius: 10px;
+}
+
+.winning-txt {
+    padding: 12px;
+    /*background: bisque;
+*/   }
