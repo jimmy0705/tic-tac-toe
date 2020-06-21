@@ -96,8 +96,15 @@ if(checkmove(1,2,3,sign)||checkmove(4,5,6,sign)||checkmove(7,8,9,sign)
   
 
 function restart(){
+  winningMessageTextElement.innerText = "";
+//	window.location.reload();
+var classes =document.querySelectorAll('.box');
+console.log(classes);
+for(let z =0;z<classes.length;z++){
+   
+  classes[z].innerText = "";
+}
 
-	window.location.reload();
 }
 
 
